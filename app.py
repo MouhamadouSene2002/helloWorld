@@ -11,6 +11,10 @@ def hello_world():  # put application's code here
 def about():
     return render_template('about.html')
 
+@app.route('/about-css')
+def about2():
+    return render_template('about-css.html')
+
 @app.route('/hello')
 def hello():
     return render_template('hello.html')
