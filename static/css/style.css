@@ -10,7 +10,7 @@ h2 {
 }
 
 /* creating style for table */
-table,td,th {
+table,td,th,ul,li,ol {
     border-style: solid;
     border-width: 3px;
     border-color: lightgreen;
